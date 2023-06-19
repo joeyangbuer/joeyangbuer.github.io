@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/06/19/simclr/</loc>
+    <loc>http://example.com/%E9%A2%84%E8%AE%AD%E7%BB%83/dapt-tapt.html</loc>
+    
+    <lastmod>2023-06-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/simclr.html</loc>
     
     <lastmod>2023-06-19</lastmod>
     
@@ -45,13 +54,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>http://example.com/tags/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-06-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
 
   

@@ -279,21 +279,6 @@
             
                 <div class="article-nav">
                     
-                        <div class="article-prev">
-                            <a class="prev"
-                               rel="prev"
-                               href="/2023/06/19/simclr/"
-                            >
-                            <span class="left arrow-icon flex-center">
-                              <i class="fas fa-chevron-left"></i>
-                            </span>
-                                <span class="title flex-center">
-                                <span class="post-nav-title-item">simclr.md</span>
-                                <span class="post-nav-item">Prev posts</span>
-                            </span>
-                            </a>
-                        </div>
-                    
                     
                         <div class="article-next">
                             <a class="next"
@@ -315,21 +300,47 @@
 
             
                 <div class="comment-container">
-                    
-<div class="comments-container">
-    <div id="comments-anchor"></div>
-    <div class="comment-area-title">
-        <i class="fas fa-comments"></i>&nbsp;Comments
-    </div>
-    
-        
-            
+                    if (hexo-config('comment.enable') == true && hexo-config('comment.use') != "") {
+  if (hexo-config('comment.use') == "valine") {
+    @import "./valine.styl"
+  }
+  else if (hexo-config('comment.use') == "gitalk") {
+    @import "./gitalk.styl"
+  }
+  else if (hexo-config('comment.use') == "twikoo") {
+    @import "./twikoo.styl"
+  }
+  else if (hexo-config('comment.use') == "waline") {
+    @import "./waline.styl"
+  }
+}
 
+.comments-container {
+  display inline-block
+  width 100%
+  margin-top $component-spacing-value
 
+  #comments-anchor {
+    width 100%
+    height 0.8rem
+  }
 
-        
-    
-</div>
+  .comment-area-title {
+    width 100%
+    margin 0.8rem 0
+    color var(--text-color-3)
+    font-size 1.38rem
+
+    i {
+      color var(--text-color-3)
+    }
+
+    +keep-tablet() {
+      margin 0.4rem 0
+      font-size 1.2rem
+    }
+  }
+}
 
                 </div>
             
