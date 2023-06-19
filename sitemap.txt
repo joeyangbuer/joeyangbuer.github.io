@@ -1,4 +1,6 @@
+http://example.com/2023/06/19/simclr/
 http://example.com/2023/06/19/firstPage-md/
 http://example.com/2023/06/11/intro-md/
 http://example.com/2023/06/11/hello-world/
 http://example.com/
+http://example.com/tags/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/
