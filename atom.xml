@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-06-19T03:55:01.668Z</updated>
+  <updated>2023-06-19T09:24:33.072Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DAPT-TAPT</title>
+    <link href="http://example.com/2023/06/19/pretrain/dapt-tapt/"/>
+    <id>http://example.com/2023/06/19/pretrain/dapt-tapt/</id>
+    <published>2023-06-19T09:21:53.000Z</published>
+    <updated>2023-06-19T09:24:33.072Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="DAPT-TAPT"><a href="#DAPT-TAPT" class="headerlink" title="DAPT-TAPT"></a>DAPT-TAPT</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;DAPT-TAPT&quot;&gt;&lt;a href=&quot;#DAPT-TAPT&quot; class=&quot;headerlink&quot; title=&quot;DAPT-TAPT&quot;&gt;&lt;/a&gt;DAPT-TAPT&lt;/h3&gt;</summary>
+      
+    
+    
+    
+    <category term="预训练" scheme="http://example.com/categories/%E9%A2%84%E8%AE%AD%E7%BB%83/"/>
+    
+    
+    <category term="预训练" scheme="http://example.com/tags/%E9%A2%84%E8%AE%AD%E7%BB%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对比学习入门-SimCLR</title>
+    <link href="http://example.com/2023/06/19/contrastive_learning/simclr/"/>
+    <id>http://example.com/2023/06/19/contrastive_learning/simclr/</id>
+    <published>2023-06-19T09:00:00.000Z</published>
+    <updated>2023-06-19T09:13:01.285Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="对比学习入门-SimCLR"><a href="#对比学习入门-SimCLR" class="headerlink" title="对比学习入门-SimCLR"></a>对比学习入门-SimCLR</h3><h4 id="一、基本思想"><a href="#一、基本思想" class="headerlink" title="一、基本思想"></a>一、基本思想</h4><p>利用自监督学习的方法来学习图像的表示，具体可以分为两个步骤：<br>1）数据增强：主要是根据一张图片通过crop、color distort、guassian blur等手段构建两张positive example作为positive pair；<br>2）对比学习任务：主要就是拉近positive pair之间的表示距离，同时将batch内其他图片（当前图片positive example以外的）看作negative，拉大negative之间的距离。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;对比学习入门-SimCLR&quot;&gt;&lt;a href=&quot;#对比学习入门-SimCLR&quot; class=&quot;headerlink&quot; title=&quot;对比学习入门-SimCLR&quot;&gt;&lt;/a&gt;对比学习入门-SimCLR&lt;/h3&gt;&lt;h4 id=&quot;一、基本思想&quot;&gt;&lt;a href=&quot;#一、基</summary>
+      
+    
+    
+    
+    <category term="对比学习" scheme="http://example.com/categories/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="CV" scheme="http://example.com/categories/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/CV/"/>
+    
+    
+    <category term="对比学习" scheme="http://example.com/tags/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="CV" scheme="http://example.com/tags/CV/"/>
+    
+  </entry>
   
   <entry>
     <title>firstPage.md</title>

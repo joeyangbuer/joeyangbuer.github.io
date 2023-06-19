@@ -1,6 +1,12 @@
-http://example.com/%E9%A2%84%E8%AE%AD%E7%BB%83/dapt-tapt.html
-http://example.com/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/simclr.html
+http://example.com/2023/06/19/pretrain/dapt-tapt/
+http://example.com/2023/06/19/contrastive_learning/simclr/
 http://example.com/2023/06/19/firstPage-md/
 http://example.com/2023/06/11/intro-md/
 http://example.com/2023/06/11/hello-world/
 http://example.com/
+http://example.com/tags/%E9%A2%84%E8%AE%AD%E7%BB%83/
+http://example.com/tags/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/
+http://example.com/tags/CV/
+http://example.com/categories/%E9%A2%84%E8%AE%AD%E7%BB%83/
+http://example.com/categories/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/
+http://example.com/categories/%E5%AF%B9%E6%AF%94%E5%AD%A6%E4%B9%A0/CV/
